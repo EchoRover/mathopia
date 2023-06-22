@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathopia</title>
+    <link rel="icon" type="image/x-icon" href="m.png">
+
+    <link rel = "stylesheet" href ="styles/main.css">
+    <link rel = "stylesheet" href ="styles/common.css">
+
+</head>
+<body>
+    <div class = "header">
+        <div class="title">Mathopia</div>
+        <img class = "logo" src="icon.png">
+    </div>
+
+    <div class = "grade_buttons_container" id = "grade_buttons_container">
+        <button id = "g11" class = "grade_buttons chapter_buttons" onclick="fetchdata(11)">Grade 11</button>
+        <button id = "g12" class = "grade_buttons chapter_buttons" onclick="fetchdata(12)">Grade 12</button>
+
+
+    </div>
+    <div id = "chapters_12" class = "list_chapters"></div>
+    <div id = "chapters_11" class = "list_chapters"></div>
+
+    <script src ="scripts/main.js"></script>
+</body>
+</html>
