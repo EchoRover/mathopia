@@ -1,0 +1,41 @@
+{
+    "grade12":{
+        "chapters":[
+            "Relations and Functions",
+            "Inverse Trigonometric Functions",
+            "Matrices",
+            "Determinants",
+            "Continuity and Differentiability",
+            "Application of Derivatives",
+            "Integrals",
+            "Application of Integrals",
+            "Differential Equations",
+            "Vector Algebra",
+            "Three Dimensional Geometry",
+            "Linear Programming",
+            "Probability"
+        ]
+        
+
+
+    },
+    "grade11":{
+        "chapters":[
+            "Sets",
+            "Relations & Functions",
+            "Trigonometric Functions",
+            "Complex Numbers and Quadratic Equations",
+            "Linear Inequalities",
+            "Permutations and Combinations",
+            "Binomial Theorem",
+            "Sequence and Series",
+            "Straight Lines",
+            "Conic Sections",
+            "Introduction to Three-dimensional Geometry",
+            "Limits and Derivatives",
+            "Statistics",
+            "Probability"
+        ]
+        
+    }
+}
