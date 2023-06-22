@@ -10,7 +10,7 @@ function getdata(){
 
     const pdf_file = document.createElement('iframe')
 
-    pdf_file.src = "/g" +grade + "math/" + file + ".pdf"
+    pdf_file.src = "g" +grade + "math/" + file + ".pdf"
     pdf_file.className = "pdf_file"
     pdf_file.id = "pdf_file"
     pdf_container.append(pdf_file)
