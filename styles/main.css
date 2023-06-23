@@ -8,6 +8,7 @@ body{
     background-color:var(--background);
     margin: 0px;
     padding: 20px 40px ; 
+    margin-bottom: 50px;
 }
 
 .list_chapters{
@@ -96,9 +97,11 @@ body{
     
 
 .footer{
+
+
     display: flex;
 
-    position:static;
+    position:fixed;
 
     height: 45px;
     width: 100%;
@@ -109,6 +112,13 @@ body{
     
 
     background-color: var(--accent);
+    color: var(--text);
+
+    text-align: center;
+    justify-content: center;
+
+    margin: 0px;
+    padding-top: 2px;
     
 
 }
