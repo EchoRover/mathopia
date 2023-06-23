@@ -13,6 +13,8 @@ function getdata(){
     pdf_file.src = "g" +grade + "math/" + file + ".pdf"
     pdf_file.className = "pdf_file"
     pdf_file.id = "pdf_file"
+
+    
     pdf_container.append(pdf_file)
 
 }
@@ -30,6 +32,14 @@ function hide_show_func(){
         frame.style.display = "none"
         button.innerHTML = "Hide" 
     }
+}
+
+
+function goback(){
+    const back_button = document.getElementById("back_button")
+    back_button.addEventListener('click',function(){
+        history.back()
+    })
 }
 
 window.onload = function() {
@@ -76,3 +86,5 @@ dateContainer.textContent = formattedDate;
 
 
 getdata()
+
+goback()

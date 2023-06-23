@@ -87,6 +87,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
+    margin-bottom: 10px;
 }
 
 .grade_buttons{
@@ -94,3 +95,20 @@ body{
 }
     
 
+.footer{
+    display: flex;
+
+    position:static;
+
+    height: 45px;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+
+
+    
+
+    background-color: var(--accent);
+    
+
+}
