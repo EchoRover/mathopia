@@ -58,9 +58,10 @@ window.onload = function() {
         }
     };
 
-    document.addEventListener("keydown",function(event){
-        
-        if (event.key === "h" || event.key ==='s'){
+    window.addEventListener("keydown",function(event){
+        console.log(event.key)
+        if (event.key === " " || event.key ==='s' || event.key ==="h"){
+            
           hide_show_func()
       
         }
@@ -68,6 +69,18 @@ window.onload = function() {
 };
 
 
+function change(){
+    const pdf_container = document.getElementById("pdf_container")
+    pdf_container.style.dirplay = "block"
+}
+
+
+const allElements = document.querySelectorAll("*");
+
+// Remove the onfocus attribute from each element
+allElements.forEach((element) => {
+    element.onfocus = null;
+});
 
 const dateContainer = document.getElementById("dateContainer");
 
