@@ -100,6 +100,26 @@ window.onload = function () {
 };
 
 
+function getFullScreenElement(){
+    return document.fullscreenElement || document.webkitFullscrernElement;
+
+
+}
+
+function toggleFullscreen(){
+    if (getFullScreenElement()){
+        document.exitFullscreen();
+
+    }else{
+        document.documentElement.requestFullscreen().catch(console.log)
+    }
+}
+
+function changecolor(){
+    
+}
+
+
 
 
 
@@ -125,6 +145,18 @@ const formattedDate = currentDate.toLocaleDateString("en-US", options);
 
 dateContainer.textContent = formattedDate;
 
+var input = document.getElementsByTagName('input')[0];
+input.oninput = function(){ 
+    document. getElementsByTagName ('body') [0]. style. backgroundColor = input.value
+}
+
+
+
+
+const buttonfull = document.getElementById("fullscreen")
+buttonfull.addEventListener("click", () => {
+    toggleFullscreen()
+})
 
 getdata()
 
